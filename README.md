@@ -64,6 +64,7 @@ People with Angina defenatly have a risk to get Heart Disease
 
 <img width="1047" alt="Screenshot 2023-08-17 at 8 08 03 PM" src="https://github.com/anastasiialeskiv/Project_3/assets/124845922/56d2527e-2a46-4477-bc79-f94ebf859845">
 
+
 Accuracy is a measure of how well a model is able to predict the correct output for a given input. It is usually expressed as a percentage
 
 Precision defines how accurately a model can predict the true positive rate. It's calculated as the number of true positives divided by the total number of predicted positives
@@ -75,9 +76,18 @@ The F1 score is the harmonic mean of precision and recall. In statistics, the ha
 
 # Evaluation
 ![image](https://github.com/anastasiialeskiv/Project_3/assets/124845922/b8f24c8c-0d30-4ad4-b995-7d1cda3d6f11)
+
+
+
 Score of 0.9 means the classifier can almost perfectly distinguish between all the Positive and the Negative class points.
 ROC AUC score tells us how efficient the model is. The higher the AUC, the better the model's performance at distinguishing between the positive and negative classes. An AUC score of 1 means the classifier can perfectly distinguish between all the Positive and the Negative class points.
+
+
+
 ![image](https://github.com/anastasiialeskiv/Project_3/assets/124845922/3a3a7559-41d8-4cce-b65a-cf3a0c7ea01e)
+
+
+
 True Positive(we predict our patient has Heart Disease and patient actually has it)-29
 
 True Negative (we predict our patient does not have Heart Disease and patient actually has it)-105
@@ -120,12 +130,20 @@ Overall model could be improved with more data.
 
 
 
-## Linitation
+## Limitation
 If I would have bigger dataset I woul make better prediction.I wish I would also have more information ebout patients health information,genetics, and habbits. I would like to have some survey to see why there is bigger percentage of mans with Heart Disease, and why Age effect percentage of people with Heart Disease.
 
-## Recomendation
+## Recommendation
 
-I would recommend caring a little bit more about their health. Control your Blood pressure and sugar level, do your check up on time to prevent any health issues.
+I would recommend to my client to pay more attention to patient's sugar leve, blood pressure, to be more attentive to patients with age of 50 and older, and patients who experienced Angina.Also I would recommend to keep in mind that men get heart disease much more often than women.
 
 ## Next Steps
 My next step would be to continue with developing model for better result. Use more data for better prediction.
+
+├── .gitignore
+
+├── Heart_Disease_Prediction.ipynb
+
+├── README.md
+
+└── archive.zip
